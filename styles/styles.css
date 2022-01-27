@@ -1,0 +1,66 @@
+/*
+Talha Rashid
+100656323
+Assignment 1
+CSCI 3230U: Web Application Development
+*/
+h1 {
+   background-color: #324376;
+   height: 75px;
+   color:#b0b0d0;
+   padding-top: 35px;
+   padding-left: 35px;
+   font-family:Garamond, Georgia, serif;
+}
+table {
+  margin-left:auto;
+  margin-right:auto;
+  border: 3px solid black;
+  border-collapse: collapse;
+
+}
+td{
+  border: 1px solid black;
+  width:2em;
+  height:2em;
+  font-size: 22px;
+  font-family: Garamond, Georgia, serif;
+  font-weight: bold;
+  text-align: center;
+}
+td:hover{
+  background-color:#f5dd90;
+}
+td:nth-child(3n) {/*  every 3 cells */
+  border-right:solid ;
+}
+tr:nth-child(3n)  {/*  every 3 rows */
+  border-bottom:solid ;
+}
+ul{
+  text-align: center;
+  margin-left: -50px;
+}
+li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  border: 1px solid black;
+  font-size: 22px;
+  font-family: Garamond, Georgia, serif;
+}
+li:hover{
+  background-color:#f5dd90;
+}
+img{
+    width: 15px;
+    height: 15px;
+}
+.error{
+  background-color:#f76c5e;
+}
+.selected{/* palette selection */
+  background-color: lightBlue;
+}
