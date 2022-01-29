@@ -1,4 +1,4 @@
 # Sudoku
 To Run
 
-	Simply run Sudoku.html 
+	Simply run sudoku.html 
