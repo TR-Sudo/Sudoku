@@ -1,10 +1,3 @@
-/*
-Talha Rashid
-100656323
-Assignment 1
-CSCI 3230U: Web Application Development
-*/
-
 var boardData = [
    -1,  1, -1, -1, -1, -1, -1,  9, -1,
    -1, -1,  4, -1, -1, -1,  2, -1, -1,
